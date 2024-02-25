@@ -20901,6 +20901,7 @@ Art_HTz_Dyn_Wall:                                              ; Offset_0x030200
 		incbin  'art/uncompressed/dyn_wall.dat'
 Art_Hill_Top_Background:                                       ; Offset_0x030300
 		incbin  'art/nemesis/backgnd.nem'
+		even
 Art_Hill_Top_Background_Uncomp:                                ; Offset_0x030C2A 
 		incbin  'art/uncompressed/htzbackgnd.dat'
 Art_Mz_Spinnig_Cylinder:                                       ; Offset_0x03102A
@@ -21367,12 +21368,15 @@ Sonic_Dyn_Script:                                               ; Offset_0x0714E
 ;-------------------------------------------------------------------------------
 Art_Shield:                                                    ; Offset_0x071D8E
 		incbin  'art/nemesis/shield.nem'  
+		even
 Art_Invencibility_Stars:                                       ; Offset_0x071F14   
 		incbin  'art/nemesis/invstars.nem' 
+		even
 Art_Water_Splash_Dust:                                         ; Offset_0x071FFC  
 		incbin  'art/uncompressed/spshdust.dat'
 Art_Water_Splash:                                              ; Offset_0x07393C                  
 		incbin  'art/nemesis/w_splash.nem'                               
+		even
 ;-------------------------------------------------------------------------------  
 Miles_Mappings:                                                ; Offset_0x0739E2             
 		include "Map/Tails.asm"
@@ -21382,6 +21386,7 @@ Miles_Dyn_Script:                                              ; Offset_0x07446C
 ;-------------------------------------------------------------------------------  
 Art_SEGA:                                                      ; Offset_0x074876
 		incbin  'art/nemesis/sega.nem'
+		even
 Sega_Mappings:                                                 ; Offset_0x074CE6                
 		incbin  'map/eni/sega.eni'
 TS_Wings_Sonic_Mappings:                                       ; Offset_0x074DE2
@@ -21392,304 +21397,452 @@ Title_Screen_R_Bg_Mappings:                                    ; Offset_0x0751EE
 		incbin  'map/eni/titscrb2.eni'
 Art_Title_Screen_Bg_Wings:                                     ; Offset_0x075436
 		incbin  'art/nemesis/titlescr.nem' ; Title Screen Wings and background
+		even
 Art_Title_Screen_Sonic_Miles:                                  ; Offset_0x076D98
 		incbin  'art/nemesis/sncmlscr.nem' ; Sonic And Miles in Title Screen
+		even
 Art_FireBall:                                                  ; Offset_0x0778DC
 		incbin  'art/nemesis/fireball.nem'
+		even
 Art_GHz_Waterfall:                                             ; Offset_0x077A52
 		incbin  'art/nemesis/ehzwatrfall.nem'               
+		even
 Art_HTz_Lava_Bubble:                                           ; Offset_0x077B58
 		incbin  'art/nemesis/lvbubble.nem' 
+		even
 Art_GHz_Bridge:                                                ; Offset_0x077CA6
 		incbin  'art/nemesis/ehzbridge.nem'  
+		even
 Art_HTz_Teleferic:                                             ; Offset_0x077D7E
 		incbin  'art/nemesis/telefrcs.nem'               
+		even
 Art_HTz_Automatic_Door:                                        ; Offset_0x078072 
 		incbin  'art/nemesis/htzautodoor.nem'                  
+		even
 Art_HTz_See_saw:                                               ; Offset_0x0780EA
 		incbin  'art/nemesis/see-saw.nem' 
+		even
 Art_Unk_Fireball: ; Não usado                                  ; Offset_0x078282
 		incbin  'art/nemesis/unkfball.nem'                                   
+		even
 Art_HTz_Rock:                                                  ; Offset_0x078390  
 		incbin  'art/nemesis/rock.nem'       
+		even
 Art_HTz_See_saw_badnick:                                       ; Offset_0x0784C6
 		incbin  'art/nemesis/see-sawb.nem'                              
+		even
 Art_Mz_Rotating_Gear:                                          ; Offset_0x078532
 		incbin  'art/nemesis/gear.nem'  
+		even
 Art_Mz_Gear_Holes:                                             ; Offset_0x07898A
 		incbin  'art/nemesis/gearhole.nem'  
+		even
 Art_Mz_Harpon_Platform:                                        ; Offset_0x078A32
 		incbin  'art/nemesis/harp_ptf.nem' 
+		even
 Art_Mz_Steam:                                                  ; Offset_0x078B00
 		incbin  'art/nemesis/steam.nem'  
+		even
 Art_Mz_Harpon:                                                 ; Offset_0x078C0A
 		incbin  'art/nemesis/harpoon.nem' 
+		even
 Art_Mz_Screw_Nut:                                              ; Offset_0x078CCC
 		incbin  'art/nemesis/screwnut.nem' 
+		even
 Art_Mz_Lava_Bubble:                                            ; Offset_0x078D42
 		incbin  'art/nemesis/mzlvbubble.nem'
+		even
 Art_Mz_Elevator:                                               ; Offset_0x078DF8
 		incbin  'art/nemesis/mzelevator.nem'
+		even
 Art_Mz_Parallelogram_Elevator:                                 ; Offset_0x078E68
 		incbin  'art/nemesis/parallel.nem'
+		even
 Art_Mz_Miscellaneous:                                          ; Offset_0x079114
 		incbin  'art/nemesis/miscelns.nem'
+		even
 Art_Mz_Mini_Gear:                                              ; Offset_0x0791B6
 		incbin  'art/nemesis/minigear.nem'
+		even
 Art_Mz_Teleport_Flash:                                         ; Offset_0x079298
 		incbin  'art/nemesis/tlpflash.nem'    
+		even
 Art_HPz_Bridge:                                                ; Offset_0x0792A4
 		incbin  'art/nemesis/hpzbridge.nem'
+		even
 Art_HPz_Waterfall:                                             ; Offset_0x07941C
 		incbin  'art/nemesis/hpzwatrfall.nem'
+		even
 Art_HPz_Emerald:                                               ; Offset_0x07977E
 		incbin  'art/nemesis/emerald.nem'
+		even
 Art_HPz_Platform:                                              ; Offset_0x0799F0
 		incbin  'art/nemesis/platform.nem'   
+		even
 Art_HPz_Orbs_2:                                                ; Offset_0x079AB0
 		incbin  'art/nemesis/orbs.nem'
+		even
 Art_HPz_Unknow_Platform:                                       ; Offset_0x079CEC
 		incbin  'art/nemesis/unkptfm.nem'                  
+		even
 Art_OOz_Giant_Spikeball:                                       ; Offset_0x079E86
 		incbin  'art/nemesis/gspkball.nem'
+		even
 Art_OOz_Touch_Boost_Up:                                        ; Offset_0x07A07E
 		incbin  'art/nemesis/boost_up.nem' 
+		even
 Art_OOz_Break_To_Boost_Horizontal:                             ; Offset_0x07A114
 		incbin  'art/nemesis/brkbst_h.nem'
+		even
 Art_OOz_Oil:                                                   ; Offset_0x07A180
 		incbin  'art/nemesis/oil.nem'
+		even
 Art_OOz_Oil_01:                                                ; Offset_0x07A2FC
 		incbin  'art/nemesis/oil_01.nem'
+		even
 Art_OOz_Ball:                                                  ; Offset_0x07A428
 		incbin  'art/nemesis/ball.nem'
+		even
 Art_OOz_Cannon:                                                ; Offset_0x07A548
 		incbin  'art/nemesis/cannon.nem'   
+		even
 Art_OOz_Collapsing_Platform:                                   ; Offset_0x07A838
 		incbin  'art/nemesis/oozplatform.nem'
+		even
 Art_OOz_Spring_Push_Boost:                                     ; Offset_0x07AACC
 		incbin  'art/nemesis/spngpush.nem'
+		even
 Art_OOz_Swing_Platform:                                        ; Offset_0x07AC8E
 		incbin  'art/nemesis/swngptfm.nem'
+		even
 Art_OOz_Break_To_Boost_Vertical:                               ; Offset_0x07AEB0
 		incbin  'art/nemesis/brkbst_v.nem'
+		even
 Art_OOz_Elevator:                                              ; Offset_0x07AF20
 		incbin  'art/nemesis/oozelevator.nem'
+		even
 Art_OOz_Fans:                                                  ; Offset_0x07B0BC
 		incbin  'art/nemesis/fans.nem'
+		even
 Art_OOz_Fire_Booster:                                          ; Offset_0x07B37C
 		incbin  'art/nemesis/fire_bst.nem'
+		even
 Art_DHz_Box:                                                   ; Offset_0x07B468
 		incbin  'art/nemesis/dhzbox.nem'
+		even
 Art_DHz_Collapsing_Platform:                                   ; Offset_0x07B6A6
 		incbin  'art/nemesis/clp_ptfm.nem'
+		even
 Art_DHz_Vines:                                                 ; Offset_0x07B850
 		incbin  'art/nemesis/vines.nem'
+		even
 Art_DHz_Vines_01:                                              ; Offset_0x07B948
 		incbin  'art/nemesis/vines_1.nem'
+		even
 Art_DHz_Bridge:                                                ; Offset_0x07B9F2
 		incbin  'art/nemesis/bridge.nem'
+		even
 Art_CNz_Green_Platforms:                                       ; Offset_0x07BA62
 		incbin  'art/nemesis/greenptf.nem'
+		even
 Art_CNz_Spikeball_Slot_Machine:                                ; Offset_0x07BACA
 		incbin  'art/nemesis/spikball.nem'
+		even
 Art_CNz_Box:                                                   ; Offset_0x07BB2A
 		incbin  'art/nemesis/box.nem'
+		even
 Art_CNz_Elevator:                                              ; Offset_0x07BBA4
 		incbin  'art/nemesis/elevator.nem'
+		even
 Art_CNz_Slot_Machine_Starter:                                  ; Offset_0x07BC16
 		incbin  'art/nemesis/slotmach.nem'
+		even
 Art_CNz_Blue_Bumper:                                           ; Offset_0x07BC84
 		incbin  'art/nemesis/bbumpers.nem'
+		even
 Art_CNz_Bumpers:                                               ; Offset_0x07BD0E
 		incbin  'art/nemesis/bumpers.nem'
+		even
 Art_CNz_Diagonal_Launcher:                                     ; Offset_0x07BEA0
 		incbin  'art/nemesis/d_launch.nem'
+		even
 Art_CNz_Vertical_Launcher:                                     ; Offset_0x07C086
 		incbin  'art/nemesis/v_launch.nem'
+		even
 Art_CNz_Green_Bumpers:                                         ; Offset_0x07C1BC
 		incbin  'art/nemesis/gbumpers.nem'
+		even
 Art_CNz_Flippers:                                              ; Offset_0x07C2E2
 		incbin  'art/nemesis/flippers.nem'
+		even
 Art_CPz_Triangle_Platform:                                     ; Offset_0x07C606
 		incbin  'art/nemesis/tri_ptfm.nem'
+		even
 Art_Water_Surface:                                             ; Offset_0x07C754
 		incbin  'art/nemesis/watrsurf.nem'
+		even
 Art_CPz_Speed_Booster:                                         ; Offset_0x07C8C4
 		incbin  'art/nemesis/speedbst.nem'
+		even
 Art_CPz_Worms:                                                 ; Offset_0x07C92C
 		incbin  'art/nemesis/worms.nem'
+		even
 Art_CPz_Metal_Structure:                                       ; Offset_0x07C99E
 		incbin  'art/nemesis/metal_st.nem'
+		even
 Art_CPz_Breakable_Block:                                       ; Offset_0x07CBA8
 		incbin  'art/nemesis/brkblock.nem'
+		even
 Art_CPz_Automatic_Door:                                        ; Offset_0x07CBE8
 		incbin  'art/nemesis/autodoor.nem'
+		even
 Art_CPz_Open_Close_Platform:                                   ; Offset_0x07CC54
 		incbin  'art/nemesis/oc_ptfrm.nem'
+		even
 Art_CPz_Platforms:                                             ; Offset_0x07CE36
 		incbin  'art/nemesis/cpzplatform.nem'
+		even
 Art_CPz_Spring_Tubes:                                          ; Offset_0x07CFF6
 		incbin  'art/nemesis/spgtubes.nem'
+		even
 Art_NGHz_Water_Surface:                                        ; Offset_0x07D1F2
 		incbin  'art/nemesis/nghzwatrsurf.nem'
+		even
 Art_NGHz_Leaves:                                               ; Offset_0x07D2D8
 		incbin  'art/nemesis/leaves.nem'
+		even
 Art_NGHz_Arrow_Shooter:                                        ; Offset_0x07D364
 		incbin  'art/nemesis/arrow_s.nem'
+		even
 Art_NGHz_Automatic_Door:                                       ; Offset_0x07D4C2
 		incbin  'art/nemesis/nghzautodoor.nem'
+		even
 Art_Switch:                                                    ; Offset_0x07D55A
 		incbin  'art/nemesis/switch.nem'
+		even
 Art_Vertical_Spring:                                           ; Offset_0x07D632
 		incbin  'art/nemesis/v_spring.nem'
+		even
 Art_Horizontal_Spring:                                         ; Offset_0x07D74E
 		incbin  'art/nemesis/h_spring.nem'
+		even
 Art_Diagonal_Spring:                                           ; Offset_0x07D818
 		incbin  'art/nemesis/d_spring.nem'
+		even
 Art_Head_Up_Display:                                           ; Offset_0x07D9EC
 		incbin  'art/nemesis/hud.nem'
+		even
 Art_Head_Up_Display_Sonic:                                     ; Offset_0x07DAF4
 		incbin  'art/nemesis/hudsonic.nem'
+		even
 Art_Rings:                                                     ; Offset_0x07DC0A
 		incbin  'art/nemesis/rings.nem'
+		even
 Art_Monitors:                                                  ; Offset_0x07DCFE
 		incbin  'art/nemesis/monitors.nem'
+		even
 Art_Spikes:                                                    ; Offset_0x07E128
 		incbin  'art/nemesis/spikes.nem'
+		even
 Art_Hit_Enemy_Points:                                          ; Offset_0x07E178
 		incbin  'art/nemesis/points.nem'
+		even
 Art_LampPost:                                                  ; Offset_0x07E252
 		incbin  'art/nemesis/lamppost.nem'
+		even
 Art_End_Panel:                                                 ; Offset_0x07E2F8
 		incbin  'art/nemesis/endpanel.nem'
+		even
 Art_Diagonal_Spring_01:                                        ; Offset_0x07E8CE
 		incbin  'art/nemesis/dspring1.nem'
+		even
 Art_DHz_Horizontal_Spikes:                                     ; Offset_0x07EA1E
 		incbin  'art/nemesis/h_spikes.nem'
+		even
 Art_Oxygen_Bubbles:                                            ; Offset_0x07EA9A
 		incbin  'art/nemesis/oxygen.nem'
+		even
 Art_Bubbles:                                                   ; Offset_0x07EC66
 		incbin  'art/nemesis/bubbles.nem'
+		even
 Art_Oxygen_Numbers:                                            ; Offset_0x07ED04
 		incbin  'art/uncompressed/oxygnumb.dat'
 Art_Game_Over_Time_Over:                                       ; Offset_0x07F184
 		incbin  'art/nemesis/gt_over.nem'
+		even
 Art_Explosion:                                                 ; Offset_0x07F316
 		incbin  'art/nemesis/explosn.nem'
+		even
 Art_Blue_Bird:                                                 ; Offset_0x07F6CA
 		incbin  'art/nemesis/bluebird.nem'
+		even
 Art_Squirrel:                                                  ; Offset_0x07F80C
 		incbin  'art/nemesis/squirrel.nem'
+		even
 Art_Mouse:                                                     ; Offset_0x07F970
 		incbin  'art/nemesis/mouse.nem'
+		even
 Art_Chicken:                                                   ; Offset_0x07FAAA
 		incbin  'art/nemesis/chicken.nem'
+		even
 Art_Monkey:                                                    ; Offset_0x07FC0C
 		incbin  'art/nemesis/monkey.nem'
+		even
 Art_Pigeon:                                                    ; Offset_0x07FD4C
 		incbin  'art/nemesis/pigeon.nem'
+		even
 Art_Pig:                                                       ; Offset_0x07FE7A
 		incbin  'art/nemesis/pig.nem'
+		even
 Art_Seal:                                                      ; Offset_0x07FFB0
 		incbin  'art/nemesis/seal.nem'
+		even
 Art_Penguin:                                                   ; Offset_0x0800CC
 		incbin  'art/nemesis/penguin.nem'
+		even
 Art_Turtle:                                                    ; Offset_0x080248
 		incbin  'art/nemesis/turtle.nem'
+		even
 Art_Bear:                                                      ; Offset_0x0803FA
 		incbin  'art/nemesis/bear.nem'
+		even
 Art_Rabbit:                                                    ; Offset_0x08053C
 		incbin  'art/nemesis/rabbit.nem'
+		even
 Art_HPz_Crocobot: ; Não usado                                  ; Offset_0x080694
 		incbin  'art/nemesis/crocobot.nem'
+		even
 Art_GHz_Buzzer:                                                ; Offset_0x080A36
 		incbin  'art/nemesis/buzzer.nem'
+		even
 Art_Batbot:                                                    ; Offset_0x080C36
 		incbin  'art/nemesis/batbot.nem'
+		even
 Art_Octus:                                                     ; Offset_0x080F8C
 		incbin  'art/nemesis/octus.nem'
+		even
 Art_Rhinobot:                                                  ; Offset_0x0812AC
 		incbin  'art/nemesis/rhinobot.nem'
+		even
 Art_Dinobot:                                                   ; Offset_0x081674
 		incbin  'art/nemesis/dinobot.nem'
+		even
 Art_Hpz_Piranha: ; Não usado                                   ; Offset_0x081A4A
 		incbin  'art/nemesis/piranha.nem'
+		even
 Art_Aquis:                                                     ; Offset_0x081F42
 		incbin  'art/nemesis/aquis.nem'
+		even
 Art_Spinning_Ball: ; Não usado                                 ; Offset_0x0822A2
 		incbin  'art/nemesis/spinball.nem'
+		even
 Art_Blink:    ; Não usado                                      ; Offset_0x082538
 		incbin  'art/nemesis/blink.nem'
+		even
 Art_Bubble_Monster: ; Não usado                                ; Offset_0x082764
 		incbin  'art/nemesis/bmonster.nem'
+		even
 Art_Ghz_Motobug: ; Não usado                                   ; Offset_0x082986
 		incbin  'art/nemesis/motobug.nem'
+		even
 Art_CNz_Crawl: ; Não usado                                     ; Offset_0x082B82
 		incbin  'art/nemesis/crawl.nem'
+		even
 Art_GHz_Masher:                                                ; Offset_0x082EE0
 		incbin  'art/nemesis/masher.nem'
+		even
 Art_Robotnik_Ship:                                             ; Offset_0x0830EC
 		incbin  'art/nemesis/robotnik.nem'
+		even
 Art_CPz_Boss:                                                  ; Offset_0x083828
 		incbin  'art/nemesis/cpzboss.nem'
+		even
 Art_Boss_Explosions:                                           ; Offset_0x083D86
 		incbin  'art/nemesis/explosns.nem'
+		even
 Art_Ship_Boost:                                                ; Offset_0x08440E
 		incbin  'art/nemesis/shpboost.nem'
+		even
 Art_Boss_Smokes:                                               ; Offset_0x08448C
 		incbin  'art/nemesis/boss_smk.nem'
+		even
 Art_GHz_Boss_Car:                                              ; Offset_0x084572
 		incbin  'art/nemesis/boss_car.nem'
+		even
 Art_GHz_Boss_Blades:                                           ; Offset_0x084D5E                
 		incbin  'art/nemesis/b_blades.nem'              
+		even
 Art_HTz_Boss_Fire_Cannon:                                      ; Offset_0x084E52
 		incbin  'art/nemesis/bossfire.nem'              
+		even
 Art_NGHz_Boss:                                                 ; Offset_0x08561E
 		incbin  'art/nemesis/nghzboss.nem'
+		even
 Art_DHz_Boss:                                                  ; Offset_0x086678
 		incbin  'art/nemesis/dhzboss.nem'             
+		even
 Art_CNz_Boss:                                                  ; Offset_0x0875B6
 		incbin  'art/nemesis/boss.nem'
+		even
 Art_OOz_Boss:                                                  ; Offset_0x087DE0
 		incbin  'art/nemesis/oozboss.nem'
+		even
 Art_Mz_Boss_Balls_And_Robotniks:                               ; Offset_0x08884E
 		incbin  'art/nemesis/bossball.nem'                           
+		even
 Art_DHz_Boss_Rocks:                                            ; Offset_0x088F8C  
 		incbin  'art/uncompressed/bossrock.dat'
 Art_Whisp:                                                     ; Offset_0x08900C
 		incbin  'art/nemesis/whisp.nem'
+		even
 Art_Grounder:                                                  ; Offset_0x089136
 		incbin  'art/nemesis/grounder.nem' 
+		even
 Art_Chop_Chop:                                                 ; Offset_0x0895C2
 		incbin  'art/nemesis/chopchop.nem'   
+		even
 Art_Rexon:                                                     ; Offset_0x089814
 		incbin  'art/nemesis/rexon.nem'                            
+		even
 Art_Spiker:                                                    ; Offset_0x0899D2
 		incbin  'art/nemesis/spiker.nem'    
+		even
 Art_Nebula:                                                    ; Offset_0x089B6A
 		incbin  'art/nemesis/nebula.nem' 
+		even
 Art_Turtloid:                                                  ; Offset_0x089D8A
 		incbin  'art/nemesis/turtloid.nem'                                                
+		even
 Art_GHz_Coconuts:                                              ; Offset_0x08A2A2  
 		incbin  'art/nemesis/coconuts.nem'
+		even
 Art_Crawlton:                                                  ; Offset_0x08A55E
 		incbin  'art/nemesis/crawlton.nem'
+		even
 Art_Flasher:                                                   ; Offset_0x08A686
 		incbin  'art/nemesis/flasher.nem'
+		even
 Art_Slicer:                                                    ; Offset_0x08A7CC   
 		incbin  'art/nemesis/slicer.nem'
+		even
 Art_Shellcracker:                                              ; Offset_0x08AAA4
 		incbin  'art/nemesis/shellcrc.nem' 
+		even
 Art_Asteron:                                                   ; Offset_0x08AD4C   
 		incbin  'art/nemesis/asteron.nem'                
+		even
 Art_Lander:                                                    ; Offset_0x08AE7C
 		incbin  'art/nemesis/lander.nem'
+		even
 Art_Grabber:                                                   ; Offset_0x08B100
 		incbin  'art/nemesis/grabber.nem'     
+		even
 Art_Clucker:                                                   ; Offset_0x08B428
 		incbin  'art/nemesis/clucker.nem'
+		even
 Art_Balkiry:                                                   ; Offset_0x08B662 
 		incbin  'art/nemesis/balkiry.nem'
+		even
 Green_Hill_Blocks:                                             ; Offset_0x08B85E   
 		incbin  'level/emerald hill zone/blocks.dat'                              
 Green_Hill_Tiles:                                              ; Offset_0x08C7FE
@@ -21700,6 +21853,7 @@ Hill_Top_Tiles:                                                ; Offset_0x08FDFE
 		incbin  'level/hill top zone/tiles.nem'
 Art_Hill_Top_Dynamic_Init:                                     ; Offset_0x091224    
 		incbin  'art/nemesis/htzdyn_init.nem'
+		even
 Green_Hill_Chunks:                                             ; Offset_0x09152C
 		incbin  'level/shared/chunks.kos' 
 		dc.w    $0000, $0000
@@ -21716,6 +21870,7 @@ Metropolis_Tiles:                                              ; Offset_0x09C314
 		incbin  'level/metropolis zone/tiles.nem'
 Art_Metropolis_Dynamic_Init:                                   ; Offset_0x091224    
 		incbin  'art/nemesis/mzdyn_init.nem'
+		even
 Metropolis_Chunks:                                             ; Offset_0x09F854
 		incbin  'level/metropolis zone/chunks.kos'
 Hidden_Palace_Blocks:                                          ; Offset_0x0A24D4                
@@ -21724,6 +21879,7 @@ Hidden_Palace_Tiles:                                           ; Offset_0x0A3AB4
 		incbin  'level/hidden palace zone/tiles.nem'
 Art_Hidden_Palace_Dynamic_Init:                                ; Offset_0x0A67C2    
 		incbin  'art/nemesis/dyn_init.nem'
+		even
 Hidden_Palace_Chunks:                                          ; Offset_0x0A6936
 		incbin  'level/hidden palace zone/chunks.kos' 
 		dc.w    $0000, $0000, $0000
@@ -21733,6 +21889,7 @@ Oil_Ocean_Tiles:                                               ; Offset_0x0A9C96
 		incbin  'level/oil ocean zone/tiles.nem'
 Art_Oil_Ocean_Dynamic_Init:                                    ; Offset_0x0AC7A8    
 		incbin  'art/nemesis/oozdyn_init.nem'
+		even
 Oil_Ocean_Chunks:                                              ; Offset_0x0AC996
 		incbin  'level/oil ocean zone/chunks.kos' 
 Dust_Hill_Blocks:                                              ; Offset_0x0AEE86
@@ -21748,6 +21905,7 @@ Casino_Night_Tiles:                                            ; Offset_0x0B6F18
 		incbin  'level/casino night zone/tiles.nem'
 Art_Casino_Night_Dynamic_Init:                                 ; Offset_0x0B9E78    
 		incbin  'art/nemesis/cnzdyn_init.nem'
+		even
 Casino_Night_Chunks:                                           ; Offset_0x0B9F62
 		incbin  'level/casino night zone/chunks.kos'
 		dc.w    $0000, $0000, $0000 
@@ -21757,6 +21915,7 @@ Chemical_Plant_Tiles:                                          ; Offset_0x0BD452
 		incbin  'level/chemical plant zone/tiles.nem'
 Art_Chemical_Plant_Dynamic_Init:                               ; Offset_0x0C0F7A    
 		incbin  'art/nemesis/cpzdyn_init.nem'                 
+		even
 Chemical_Plant_Chunks:                                         ; Offset_0x0C0FA4
 		incbin  'level/chemical plant zone/chunks.kos'
 		dc.w    $0000, $0000, $0000  
@@ -21766,6 +21925,7 @@ Neo_Green_Hill_Tiles:                                          ; Offset_0x0C4DA4
 		incbin  'level/neo green hill zone/tiles.nem'
 Art_Neo_Green_Hill_Dynamic_Init:                               ; Offset_0x0CA426    
 		incbin  'art/nemesis/nghzdyn_init.nem'
+		even
 Neo_Green_Hill_Chunks:                                         ; Offset_0x0CA586
 		incbin  'level/neo green hill zone/chunks.kos'
 		dc.w    $0000
@@ -21774,6 +21934,7 @@ Previous_Build_Chemical_Plant_Tiles_Overwrite:                 ; Offset_0x0CD158
 		incbin  'leftovers/cpzpb_tiles.dat'
 Previous_Build_Art_Chemical_Plant_Dynamic_Init:                ; Offset_0x0CDFC6
 		incbin  'art/nemesis/dyninit2.nem'
+		even
 Previous_Build_Chemical_Plant_Chunks:                          ; Offset_0x0CE03A
 		incbin  'leftovers/cpzchunks.dat'            
 Previous_Build_Neo_Green_Hill_Blocks:                          ; Offset_0x0D603A 
@@ -21782,6 +21943,7 @@ Previous_Build_Neo_Green_Hill_Tiles:                           ; Offset_0x0D793A
 		incbin  'leftovers/nghzpb_tiles.nem'
 Previous_Build_Art_Neo_Green_Hill_Dynamic_Init:                ; Offset_0x0DCEEA
 		incbin  'art/nemesis/nghzdyn_init.nem'
+		even
 Previous_Build_Neo_Green_Hill_Chunks:                          ; Offset_0x0DD04A
 		incbin  'leftovers/nghzpb_chnks.dat'
 		dc.w     $0000
@@ -21789,6 +21951,7 @@ Previous_Build_Neo_Green_Hill_Tiles_Overwrite:                 ; Offset_0x0E504C
 		incbin  'leftovers/nghzpb_tiles.dat'
 Previous_Build_Art_Neo_Green_Hill_Dynamic_Init_2:              ; Offset_0x0E57E6
 		incbin  'art/nemesis/nghzdyn_init.nem'
+		even
 Uncompiled_Asm:                                                ; Offset_0x0E5946                 
 		include "Leftovers/Uncompiled ASM.asm"
 ;===============================================================================
